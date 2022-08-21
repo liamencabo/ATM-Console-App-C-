@@ -194,7 +194,7 @@ namespace ATMApp
             }
             if(transaction_amt % 500 != 0)
             {
-                Utility.PrintMessage("You can only withdraw amount in multiples of 500 or 1000 naira. Try again.", false);
+                Utility.PrintMessage("You can only withdraw amounts in multiples of 500 or 1000 naira. Please try again.", false);
                 return;
             }
             //Business logic validations

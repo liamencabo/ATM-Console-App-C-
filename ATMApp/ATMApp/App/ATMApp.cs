@@ -69,7 +69,7 @@ namespace ATMApp
 
         public void Welcome()
         {
-            Console.WriteLine($"Welcome back, {selectedAccount.FullName}");
+            Console.WriteLine($"Welcome Back, {selectedAccount.FullName}");
             Utility.PressEnterToContinue();
         }
 
